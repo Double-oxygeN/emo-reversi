@@ -1,0 +1,301 @@
+📦 allegro 🔴
+
+🦃 🌛 🍇
+  🌚
+  🌝
+  📂
+🍉
+
+👴 Reversi Class
+🐇 ☯️ 🍇
+  🍰 board 🍨🐚🍨🐚🌛
+  🍰 turn 🚂
+  🍰 passBefore 👌
+  🍰 end? 👌
+
+  🐈 🆕 🍇
+    🍮 board 🍨
+      🍨 🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂 🍆
+      🍨 🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂 🍆
+      🍨 🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂 🍆
+      🍨 🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛🌝🔷🌛🌚🔷🌛📂🔷🌛📂🔷🌛📂 🍆
+      🍨 🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛🌚🔷🌛🌝🔷🌛📂🔷🌛📂🔷🌛📂 🍆
+      🍨 🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂 🍆
+      🍨 🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂 🍆
+      🍨 🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂🔷🌛📂 🍆
+    🍆
+    🍮 turn 1
+    🍮 passBefore 👎
+    🍮 end? 👎
+  🍉
+
+  🐇🐖 🌞 who 🌛 ➡️ 🌛 🍇
+    🍰 r 🌛
+    🍊 😛 who 🔷🌛🌝 🍇
+      🍮 r 🔷🌛🌚
+    🍉
+    🍋 😛 who 🔷🌛🌚 🍇
+      🍮 r 🔷🌛🌝
+    🍉
+    🍓 🍇
+      🍮 r 🔷🌛📂
+    🍉
+    🍎 r
+  🍉
+
+  🐖 🖌 x 🚀 y 🚀 r 🚀 resultFont 🕉 resultColor 🎨 resultLeft 🚀 resultUp 🚀 🍇
+    🍮 xIdx 0.0
+    🍮 yIdx 0.0
+
+    🔂 column board 🍇
+      🍮 yIdx 0.0
+      🔂 piece column 🍇
+        🍊 😛 piece 🔷🌛🌚 🍇
+          🍩🏀🏔 ➕ ➕ x r ✖️ xIdx ✖️ 2.0 ➕ 1.0 r ➕ ➕ y r ✖️ yIdx ✖️ 2.0 ➕ 1.0 r r 🔷🎨🆕 0 0 0 255
+        🍉
+        🍋 😛 piece 🔷🌛🌝 🍇
+          🍩🏀🏔 ➕ ➕ x r ✖️ xIdx ✖️ 2.0 ➕ 1.0 r ➕ ➕ y r ✖️ yIdx ✖️ 2.0 ➕ 1.0 r r 🔷🎨🆕 255 255 255 255
+        🍉
+        🍋 📍 🐕 🏇 xIdx 🏇 yIdx 🍇
+          🍩🏀🏔 ➕ ➕ x r ✖️ xIdx ✖️ 2.0 ➕ 1.0 r ➕ ➕ y r ✖️ yIdx ✖️ 2.0 ➕ 1.0 r ➗ r 6 🔷🎨🆕 255 204 0 255
+        🍉
+        🍮 yIdx ➕ yIdx 1.0
+      🍉
+      🍮 xIdx ➕ xIdx 1.0
+    🍉
+
+    🍊 end? 🍇
+      🍰　numOfFst 🚂
+      🍰　numOfSnd 🚂
+
+      🍮 numOfFst 0
+      🍮 numOfSnd 0
+
+      🔂 column board 🍇
+        🔂 piece column 🍇
+          🍊 😛 piece 🔷🌛🌚 🍇
+            🍫 numOfFst
+          🍉
+          🍋 😛 piece 🔷🌛🌝 🍇
+            🍫 numOfSnd
+          🍉
+        🍉
+      🍉
+
+      🍩🔡🏔 resultFont resultColor resultLeft resultUp
+        🔷🔡🍨 🍨 🔡 numOfFst 10 🔤-🔤 🔡 numOfSnd 10 🍆 🔤 🔤
+        🔷⚖️↔️
+    🍉
+  🍉
+
+  🐖 🌓 ➡️ 🌛 🍇
+    🍰 r 🌛
+    🍊 😛 🚮 turn 2 0 🍇
+      🍮 r 🔷🌛🌝
+    🍉
+    🍓 🍇
+      🍮 r 🔷🌛🌚
+    🍉
+    🍎 r
+  🍉
+
+  🐖 📍 xIdx 🚂 yIdx 🚂  ➡️ 👌 🍇
+    🍰 r 👌
+    🍊 ▶️ 🐔🔀🐕 xIdx yIdx 0  🍇
+      🍮 r 👍
+    🍉
+    🍓 🍇
+      🍮 r 👎
+    🍉
+    🍎 r
+  🍉
+
+  🐖 🔀 xIdx 🚂 yIdx 🚂 ➡️ 🍨🐚🍨🐚🚂 🍇
+    🍰 r 🍨🐚🍨🐚🚂
+    🍰 line 🍨🐚🍨🐚🚂
+    🍰 who 🌛
+
+    🍮 r 🔷🍨🐚🍨🐚🚂🐸
+    🍮 who 🌓 🐕
+
+    🍊 😛 🍺🐽🍺🐽 board xIdx yIdx 🔷🌛📂 🍇
+      🍰 searchXIdx 🚂
+      🍰 searchYIdx 🚂
+
+      🔂 nghbrXIdx 🍨 -1 0 1 🍆 🍇
+        🔂 nghbrYIdx 🍨 -1 0 1 🍆 🍇
+          🍮 line 🔷🍨🐚🍨🐚🚂🐸
+          🍮 searchXIdx ➕ nghbrXIdx xIdx
+          🍮 searchYIdx ➕ nghbrYIdx yIdx
+          🍮 break 👎
+
+          🔁 ❎ break 🍇
+            🍊 ☁️ 🐽 board searchXIdx 🍇
+              🍮 line 🔷🍨🐚🍨🐚🚂🐸
+              🍮 break 👍
+            🍉
+            🍋 ☁️ 🐽🍺🐽 board searchXIdx searchYIdx 🍇
+              🍮 line 🔷🍨🐚🍨🐚🚂🐸
+              🍮 break 👍
+            🍉
+            🍋 🎉 ◀️ searchXIdx 0 ◀️ searchYIdx 0 🍇
+              🍮 line 🔷🍨🐚🍨🐚🚂🐸
+              🍮 break 👍
+            🍉
+            🍋 😛 🍺🐽🍺🐽 board searchXIdx searchYIdx 🍩🌞☯️ who 🍇
+              🐻 line 🍨 searchXIdx searchYIdx 🍆
+              🍮 searchXIdx ➕ nghbrXIdx searchXIdx
+              🍮 searchYIdx ➕ nghbrYIdx searchYIdx
+            🍉
+            🍋 😛 🍺🐽🍺🐽 board searchXIdx searchYIdx who 🍇
+              🍮 break 👍
+            🍉
+            🍓 🍇
+              🍮 line 🔷🍨🐚🍨🐚🚂🐸
+              🍮 break 👍
+            🍉
+          🍉
+
+          🔂 piece line 🍇
+            🐻 r piece
+          🍉
+        🍉
+      🍉
+    🍉
+
+    🍎 r
+  🍉
+
+  🐖 💁 xIdx 🚂 yIdx 🚂 ➡️ 👌 🍇
+    🍰 r 👌
+    🍰 turnPieces 🍨🐚🍨🐚🚂
+    🍰 who 🌛
+
+    🍮 turnPieces 🔀🐕 xIdx yIdx
+    🍮 who 🌓 🐕
+
+    🍊 ▶️ 🐔 turnPieces 0  🍇
+      🐷 🍺🐽 board xIdx yIdx who
+      🔂 piece turnPieces 🍇
+        🐷 🍺🐽 board 🍺🐽 piece 0 🍺🐽 piece 1 who
+      🍉
+      🍫 turn
+      🍮 passBefore 👎
+      🍮 r 👍
+    🍉
+    🍓 🍇
+      🍮 r 👎
+    🍉
+
+    🍎 r
+  🍉
+
+  🐖 🙅 ➡️ 👌 🍇
+    🍰 r 👌
+    🍰 noTurn 👌
+    🍰 xIdx 🚂
+    🍰 yIdx 🚂
+
+    🍮 noTurn 👍
+    🍮 xIdx 0
+    🍮 yIdx 0
+
+    🔂 column board 🍇
+      🍮 yIdx 0
+      🔂 piece column 🍇
+        🍊 ▶️ 🐔🔀🐕 xIdx yIdx 0  🍇
+          🍮 noTurn 👎
+        🍉
+        🍓 🍇
+          🍮 noTurn 🎊 noTurn 👍
+        🍉
+        🍫 yIdx
+      🍉
+      🍫 xIdx
+    🍉
+
+    🍊 noTurn 🍇
+      🍊 passBefore 🍇
+        🍮 r 👍
+        🍮 end? 👍
+      🍉
+      🍓 🍇
+        🍫 turn
+        🍮 passBefore 👍
+        🍮 r 👎
+      🍉
+    🍉
+
+    🍎 r
+  🍉
+🍉
+
+🏁 🍇
+  🍩🙋🏔 🍇
+    🍦 BG_COLOR 🔷🎨🆕 153 153 153 255
+    🍦 OUTLINE_COLOR 🔷🎨🆕 255 255 255 255
+    🍦 SQUARE_COLOR 🔷🎨🆕 51 204 51 255
+    🍦 PASS_COLOR 🔷🎨🆕 210 0 0 255
+    🍦 RESULT_COLOR PASS_COLOR
+    🍦 BOARD_LEFT 118.0
+    🍦 BOARD_UP 38.0
+    🍦 BOARD_SIZE 402.0
+    🍦 SQUARE_SIZE 48.0
+    🍦 PASS_LEFT 540.0
+    🍦 PASS_UP 400.0
+    🍦 MAIN_FONT 🍺🔷🕉📄 🔤resources/Voyager-Grotesque/Voyager Grotesque(regular).ttf🔤 32
+    🍦 RESULT_FONT 🍺🔷🕉📄 🔤resources/Voyager-Grotesque/Voyager Grotesque(regular).ttf🔤 120
+
+    🍦 disp 🍺🔷📺🆕 640 480
+    🏷 disp 🔤Reversi Game🔤
+
+    🍰 r-board ☯️
+    🍮 r-board 🔷☯️🆕
+
+    🍦 queue 🔷🗃🆕
+    🖱 queue
+    ⌨️ queue
+
+    🍰 end? 👌
+    🍮 end? 👎
+
+    🔁 ❎end? 🍇
+      🍩🚿🏔 BG_COLOR
+      🍩🗄🏔 BOARD_LEFT BOARD_UP ➕ BOARD_LEFT BOARD_SIZE ➕ BOARD_UP BOARD_SIZE OUTLINE_COLOR
+      🔂 i ⏩ 0 8 🍇
+        🔂 j ⏩ 0 8 🍇
+          🍦 SQUARE_LEFT ➕ ➕ BOARD_LEFT 2.0 ✖️ ➗ ➖ BOARD_SIZE 2.0 8.0 🚀 i
+          🍦 SQUARE_UP ➕ ➕ BOARD_UP 2.0 ✖️ ➗ ➖ BOARD_SIZE 2.0 8.0 🚀 j
+          🍩🗄🏔 SQUARE_LEFT SQUARE_UP ➕ SQUARE_LEFT SQUARE_SIZE ➕ SQUARE_UP SQUARE_SIZE SQUARE_COLOR
+        🍉
+      🍉
+      🖌 r-board ➕ BOARD_LEFT 2.0 ➕ BOARD_UP 2.0 ➗ SQUARE_SIZE 2.0 RESULT_FONT RESULT_COLOR 320.0 240.0
+      🍩🔡🏔 MAIN_FONT PASS_COLOR PASS_LEFT PASS_UP 🔤PASS!🔤 🔷⚖️⬅️
+      🍩🎦🏔
+
+      🍦 event ⏳ queue
+
+      🍊🍦 mouseEvent 🔲 event 🔛 🍇
+        🍦 mouseX 👉 mouseEvent
+        🍦 mouseY 👇 mouseEvent
+
+        🍊 🎊🎊🎊 ◀️ BOARD_LEFT mouseX ◀️ mouseX ➕ BOARD_LEFT BOARD_SIZE ◀️ BOARD_UP mouseY ◀️ mouseY ➕ BOARD_UP BOARD_SIZE 🍇
+          💁 r-board
+            ➗ ➖ 🏇 mouseX ➕ 2 🏇 BOARD_LEFT ➗ ➖ 🏇 BOARD_SIZE 2 8
+            ➗ ➖ 🏇 mouseY ➕ 2 🏇 BOARD_UP ➗ ➖ 🏇 BOARD_SIZE 2 8
+        🍉
+        🍊 🎊🎊🎊 ◀️ PASS_LEFT mouseX ◀️ mouseX ➕ PASS_LEFT 80.0 ◀️ PASS_UP mouseY ◀️ mouseY ➕ PASS_UP 32.0 🍇
+          🙅 r-board
+        🍉
+      🍉
+      🍊🍦 keyboardEvent 🔲 event 📩 🍇
+        🍊 😛📟 keyboardEvent 17 🍇
+          🍮 end? 👍
+        🍉
+        🍋 😛📟 keyboardEvent 18 🍇
+          🍮 r-board 🔷☯️🆕
+        🍉
+      🍉
+    🍉
+  🍉
+🍉
