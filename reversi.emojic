@@ -30,17 +30,15 @@
   🍉
 
   🐇🐖 🌞 who 🌛 ➡️ 🌛 🍇
-    🍰 r 🌛
     🍊 😛 who 🔷🌛🌝 🍇
-      🍮 r 🔷🌛🌚
+      🍎 🔷🌛🌚
     🍉
     🍋 😛 who 🔷🌛🌚 🍇
-      🍮 r 🔷🌛🌝
+      🍎 🔷🌛🌝
     🍉
     🍓 🍇
-      🍮 r 🔷🌛📂
+      🍎 🔷🌛📂
     🍉
-    🍎 r
   🍉
 
   🐖 🖌 x 🚀 y 🚀 r 🚀 resultFont 🕉 resultColor 🎨 resultLeft 🚀 resultUp 🚀 🍇
@@ -72,42 +70,32 @@
       🍮 numOfSnd 0
 
       🔂 column board 🍇
-        🔂 piece column 🍇
-          🍊 😛 piece 🔷🌛🌚 🍇
-            🍫 numOfFst
-          🍉
-          🍋 😛 piece 🔷🌛🌝 🍇
-            🍫 numOfSnd
-          🍉
-        🍉
+        🍮 numOfFst ➕ numOfFst 🐔 🐭 column 🍇 piece 🌛 ➡️ 👌 🍎 😛 piece 🔷🌛🌚 🍉
+        🍮 numOfSnd ➕ numOfSnd 🐔 🐭 column 🍇 piece 🌛 ➡️ 👌 🍎 😛 piece 🔷🌛🌝 🍉
       🍉
 
       🍩🔡🏔 resultFont resultColor resultLeft resultUp
-        🔷🔡🍨 🍨 🔡 numOfFst 10 🔤-🔤 🔡 numOfSnd 10 🍆 🔤 🔤
+        🍪 🔡 numOfFst 10 🔤-🔤 🔡 numOfSnd 10 🍪
         🔷⚖️↔️
     🍉
   🍉
 
   🐖 🌓 ➡️ 🌛 🍇
-    🍰 r 🌛
     🍊 😛 🚮 turn 2 0 🍇
-      🍮 r 🔷🌛🌝
+      🍎 🔷🌛🌝
     🍉
     🍓 🍇
-      🍮 r 🔷🌛🌚
+      🍎 🔷🌛🌚
     🍉
-    🍎 r
   🍉
 
   🐖 📍 xIdx 🚂 yIdx 🚂  ➡️ 👌 🍇
-    🍰 r 👌
     🍊 ▶️ 🐔🔀🐕 xIdx yIdx 0  🍇
-      🍮 r 👍
+      🍎 👍
     🍉
     🍓 🍇
-      🍮 r 👎
+      🍎 👎
     🍉
-    🍎 r
   🍉
 
   🐖 🔀 xIdx 🚂 yIdx 🚂 ➡️ 🍨🐚🍨🐚🚂 🍇
@@ -167,7 +155,6 @@
   🍉
 
   🐖 💁 xIdx 🚂 yIdx 🚂 ➡️ 👌 🍇
-    🍰 r 👌
     🍰 turnPieces 🍨🐚🍨🐚🚂
     🍰 who 🌛
 
@@ -181,52 +168,44 @@
       🍉
       🍫 turn
       🍮 passBefore 👎
-      🍮 r 👍
+      🍎 👍
     🍉
     🍓 🍇
-      🍮 r 👎
+      🍎 👎
     🍉
-
-    🍎 r
   🍉
 
   🐖 🙅 ➡️ 👌 🍇
-    🍰 r 👌
-    🍰 noTurn 👌
-    🍰 xIdx 🚂
-    🍰 yIdx 🚂
+    🍰 noPlaceToPut 👌
 
-    🍮 noTurn 👍
-    🍮 xIdx 0
-    🍮 yIdx 0
+    🍮 noPlaceToPut 👍
 
-    🔂 column board 🍇
-      🍮 yIdx 0
-      🔂 piece column 🍇
+    🔂 xIdx ⏩ 0 8 🍇
+      🔂 yIdx ⏩ 0 8 🍇
         🍊 ▶️ 🐔🔀🐕 xIdx yIdx 0  🍇
-          🍮 noTurn 👎
+          🍮 noPlaceToPut 👎
         🍉
         🍓 🍇
-          🍮 noTurn 🎊 noTurn 👍
+          🍮 noPlaceToPut 🎊 noPlaceToPut 👍
         🍉
-        🍫 yIdx
       🍉
-      🍫 xIdx
     🍉
 
-    🍊 noTurn 🍇
+    🍊 noPlaceToPut 🍇
       🍊 passBefore 🍇
-        🍮 r 👍
         🍮 end? 👍
+        🍎 👍
       🍉
       🍓 🍇
         🍫 turn
         🍮 passBefore 👍
-        🍮 r 👎
+        🍎 👎
       🍉
     🍉
+    🍓 🍇
+      🍎 👎
+    🍉
 
-    🍎 r
   🍉
 🍉
 
